@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+*,*::before, *::after{
+  box-sizing: inherit;
+}
+  
+a {
+  text-decoration: none;
+  color: inherit;  
+  display: inline-block;
+}
+  
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+h1, h2, h3, h4, h5, h6{
+  margin: 0; 
+}
+p {
+  margin: 0;
+}
+
+:root {
+  --backgrhed: #000000;
+  --textwhite: #FFFFFF;
+  --activeorange: #FE9013;
+  --green: #4B9200;
+  --yellow: #FFEE2E;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  font-family:"Aleo-Regular", "sans-serif";
+  font-size: 20px;
+  color: #333B41;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
