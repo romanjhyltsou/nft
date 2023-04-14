@@ -85,6 +85,16 @@ body {
   border: 1px solid #FFFFFF;
   border-radius: 15px;
 }
+.btn-private:hover{
+  border: 1px solid #C3F33B;
+}
+.btn-private__link:hover{
+  color: #C3F33B;
+}
+.btn-private:active{
+  background: rgba(224, 255, 172, 0.05);
+  backdrop-filter: blur(7.5px);
+}
 
 .btn-private__link{
   font-family: 'Inter';
@@ -162,6 +172,12 @@ body {
   filter: blur(7px);
   border-radius: 20px;
   z-index: -1;
+}
+.btn:hover:before {
+  filter: blur(10px);
+}
+.btn:active:before {
+  filter: blur(7px);
 }
 /* main end */
 /* advantage start */
