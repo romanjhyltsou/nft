@@ -35,9 +35,7 @@ body {
 }
 
 .container {
-  box-sizing:border-box;
-  max-width: 1300px;
-  padding: 0 10px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
@@ -148,7 +146,7 @@ body {
 .btn{
   position: relative;
   border: none; outline: none;
-  width: 331px;
+  width: 319px;
   height: 66px;
   font-family: 'GT Walsheim Pro';
   font-style: normal;
